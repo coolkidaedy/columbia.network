@@ -93,6 +93,17 @@ export const members: Member[] = [
     linkedin: "https://linkedin.com/in/ansh-krishna",
     connections: [],
   },
+  {
+    id: "alex-jerpelea",
+    name: "Alex Jerpelea",
+    program: "CS + Applied Maths",
+    roles: ["engineering"],
+    verticals: [],
+    twitter: "https://x.com/alexjerpelea",
+    linkedin: "https://www.linkedin.com/in/alexandru-iulius-jerpelea-5828b2181/",
+    connections: [ansh-krishna],
+  }
+
 
   // ============================================
   // ADD YOUR ENTRY ABOVE THIS LINE
