@@ -101,9 +101,8 @@ export const members: Member[] = [
     verticals: [],
     twitter: "https://x.com/alexjerpelea",
     linkedin: "https://www.linkedin.com/in/alexandru-iulius-jerpelea-5828b2181/",
-    connections: [ansh-krishna],
-  }
-
+    connections: ["ansh-krishna"],
+  },
 
   // ============================================
   // ADD YOUR ENTRY ABOVE THIS LINE
