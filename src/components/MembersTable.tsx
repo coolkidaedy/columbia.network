@@ -20,6 +20,16 @@ export default function MembersTable({ members, searchQuery }: MembersTableProps
         );
     };
 
+    const getWebsiteLabel = (website: string, memberId?: string) => {
+        if (memberId === 'abhinav-goel') return 'abhigoel.com';
+        try {
+            const normalized = website.startsWith('http') ? website : `https://${website}`;
+            return new URL(normalized).hostname.replace(/^www\./, '');
+        } catch {
+            return website.replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/$/, '');
+        }
+    };
+
     return (
         <div className="members-table-container">
             <div className="search-results-info">
@@ -80,7 +90,7 @@ export default function MembersTable({ members, searchQuery }: MembersTableProps
                                         rel="noopener noreferrer" 
                                         className="site-link"
                                     >
-                                        {member.website.replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/$/, '')}
+                                        {getWebsiteLabel(member.website, member.id)}
                                     </a>
                                 ) : (
                                     <span className="table-placeholder">—</span>

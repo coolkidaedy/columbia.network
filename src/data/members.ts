@@ -237,7 +237,7 @@ export const members: Member[] = [
     verticals: ["robotics", "hard tech"],
     profilePic: "/photos/marcus-lam.png",
     linkedin: "https://www.linkedin.com/in/marcus-lam-maker/",
-    connections: ["ansh-krishna", "opalina-khanna", "justin-hou", "justine-mach", "ravin-chutijirawong", "joseph-jojoe"],
+    connections: ["ansh-krishna", "opalina-khanna", "justin-hou", "justine-mach", "ravin-chutijirawong", "joseph-jojoe", "abhinav-goel"],
   },
 
   {
@@ -286,6 +286,77 @@ export const members: Member[] = [
     linkedin: "https://www.linkedin.com/in/jonathanwang10/",
     twitter: "https://x.com/jonathan10wang",
     connections: ["ansh-krishna", "armaan-agrawal", "alex-jerpelea", "sid-rout"],
+  },
+
+  {
+    id: "anibal-segovia",
+    name: "Anibal Segovia",
+    website: "",
+    program: "Economics",
+    roles: ["growth"],
+    profilePic: "/photos/anibal-segovia.png",
+    linkedin: "https://www.linkedin.com/in/anibal-david-segovia-baldelomar-9b9b1233b/",
+    connections: ["justine-mach", "alex-jerpelea", "ella-sy", "ravin-chutijirawong", "ansh-krishna", "sid-rout", "tanush-sawhney"],
+  },
+
+  {
+    id: "abhinav-goel",
+    name: "Abhinav Goel",
+    website: "https://abhigoel25.github.io/abhiportfolio/",
+    program: "CS + Operations Research",
+    roles: ["ai/ml", "research"],
+    verticals: ["ai", "robotics", "hard tech"],
+    profilePic: "/photos/abhinav-goel.png",
+    linkedin: "https://www.linkedin.com/in/abhinav-goel-041ba8266/",
+    connections: ["ansh-krishna", "armaan-agrawal", "veer-chopra", "sid-rout", "marcus-lam"],
+  },
+
+  {
+    id: "mihir-garimella",
+    name: "Mihir Garimella",
+    website: "",
+    program: "CS",
+    roles: ["product", "ai/ml"],
+    verticals: ["ai"],
+    profilePic: "/photos/mihir-garimella.png",
+    linkedin: "https://www.linkedin.com/in/mihir-garimella/",
+    connections: ["ansh-krishna", "abhinav-goel", "armaan-agrawal", "sid-rout", "alex-jerpelea"],
+  },
+
+  {
+    id: "pratyush-singhal",
+    name: "Pratyush Singhal",
+    website: "",
+    program: "CS",
+    roles: ["engineering", "product", "software"],
+    verticals: ["ai", "hard tech"],
+    profilePic: "/photos/pratyush-singhal.png",
+    linkedin: "https://www.linkedin.com/in/pratyush-singhal-2241922ab/",
+    connections: ["ansh-krishna", "veer-chopra", "tanush-sawhney", "abhinav-goel"],
+  },
+
+  {
+    id: "anay-garodia",
+    name: "Anay Garodia",
+    website: "",
+    program: "Math + CS",
+    roles: ["engineering", "product", "software", "quant", "research", "ai/ml"],
+    verticals: ["ai"],
+    profilePic: "/photos/anay-garodia.png",
+    linkedin: "https://www.linkedin.com/in/anay-garodia-a863a6257/",
+    connections: ["ansh-krishna", "pratyush-singhal", "abhinav-goel", "veer-chopra"],
+  },
+
+  {
+    id: "naythan-chan",
+    name: "Naythan Chan",
+    website: "https://naythanchan.com/",
+    program: "CS + Applied Math",
+    roles: ["quant", "ai/ml", "research", "finance", "vc", "software"],
+    verticals: ["ai", "fintech", "robotics"],
+    profilePic: "/photos/naythan-chan.png",
+    linkedin: "https://www.linkedin.com/in/naythanchan/",
+    connections: ["ansh-krishna", "justin-hou", "ravin-chutijirawong", "anibal-segovia", "sid-rout", "arm-komolhiran", "marcus-lam", "tanush-sawhney", "ella-sy", "joseph-jojoe", "justine-mach"],
   },
 
   // ============================================
