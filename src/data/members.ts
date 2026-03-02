@@ -109,6 +109,8 @@ export const members: Member[] = [
     id: "manas-chan",
     name: "Manas Chan",
     program: "Computer Engineering",
+    roles: ["engineering", "hardware"],
+    verticals: ["hard tech"],
     linkedin: "https://www.linkedin.com/in/manas-chan/",
     connections: ["ansh-krishna"],
   },
