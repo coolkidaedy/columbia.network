@@ -119,6 +119,8 @@ export const members: Member[] = [
     id: "ravin-chutijirawong",
     name: "Ravin Chutijirawong",
     program: "Computational Biology + Economics",
+    roles: ["ai/ml", "research", "software", "vc"],
+    verticals: ["ai", "healthcare", "saas", "consumer", "creator tools"],
     linkedin: "https://www.linkedin.com/in/ravin-chutijirawong-5b8700350/",
     connections: ["ansh-krishna", "alex-jerpelea"],
   },
